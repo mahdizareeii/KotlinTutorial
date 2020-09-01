@@ -16,8 +16,8 @@ import org.koin.android.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {
 
-    //private val mainViewModel: MainViewModel by viewModel()
-    private val mainViewModel: MainViewModel by inject()
+    private val mainViewModel: MainViewModel by viewModel()
+    //private val mainViewModel: MainViewModel by inject() is wrong
 
     private lateinit var adapter: RVAdapter
 
